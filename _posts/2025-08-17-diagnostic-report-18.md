@@ -35,7 +35,7 @@ Here is the extracted information in Markdown format:
 \- Swap: Total 4096, Used 
 
 ## Storage (Physical Devices)
-\- /dev/sda1 — ?— 50G  
+\- — ?— 50G  
 
 ## Volumes
 \- Volume 1: 50G — Used 20G, Avail 28G, Use 42%
