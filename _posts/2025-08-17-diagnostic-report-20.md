@@ -26,7 +26,7 @@ author: Computational Resource Management Authority
 \- Swap: Total 4096 MiB, Used 0 MiB
 
 ## Disks
-\- /dev/sda1 — ext4 — 50G
+\- 50G
 
 ## Temperatures
 \- CPU Package: 49°C
