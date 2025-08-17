@@ -23,14 +23,6 @@ Here is the extracted information in Markdown format:
 \- Kernel: 6.x
 \- Arch: x86-64
 
-> Spec:
->
-> - OS: “Ubuntu <major>.<minor> LTS” (e.g., Ubuntu 24.04 LTS). Do not include point releases (e.g., .3) or codenames.
->
-> - Kernel: “<major>.<minor>.x” (e.g., 6.14.x). Do not include suffixes (e.g., -generic).
->
-> - Arch: Use the input string as-is (e.g., x86-64).
-
 ## CPU
 \- Model: Intel Core i7-4790K @ 4.00GHz
 
