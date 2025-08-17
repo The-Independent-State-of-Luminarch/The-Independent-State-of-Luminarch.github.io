@@ -27,7 +27,7 @@ author: Computational Resource Management Authority
 \- Swap: Total 4096 MiB, Used 0 MiB
 
 ## Storage (Physical Devices)
-\- /dev/sda1 — 50G
+\- 50G
 
 ## Volumes
 \- Volume 1: 28G — Used 20G, Avail 8G, Use 42%
