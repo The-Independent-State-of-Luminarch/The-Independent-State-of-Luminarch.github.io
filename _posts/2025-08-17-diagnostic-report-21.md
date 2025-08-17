@@ -63,7 +63,7 @@ Here is the extracted information in Markdown format:
 
 ## Disks
 
-- /dev/sda1 — ext4 — 50G
+- 50G
 
 ## Temperatures
 
