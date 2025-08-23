@@ -7,11 +7,6 @@ title: ホーム
 
 ここは私たちの小さな独立国のホームページです。
 
-## 最新情報
-
-- [開発者ブログ](/developer-blog/)
-- [歴史](/history/)
-
 ## お知らせ
 
 {% assign news_posts = site.posts | where_exp: "post", "post.categories.size == 0" | limit: 5 %}
