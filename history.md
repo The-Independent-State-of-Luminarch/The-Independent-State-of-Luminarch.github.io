@@ -1,22 +1,19 @@
 ---
 layout: default
-title: 開発者ブログ
-permalink: /blog/
+title: 歴史
+permalink: /history/
 ---
 
-# 開発者ブログ
+# Luminarch独立国の歴史
 
-{% for post in site.posts %}
-## [{{ post.title }}]({{ post.url | relative_url }})
-**{{ post.date | date: "%Y年%m月%d日" }}**
+## 建国の経緯
 
-{{ post.excerpt }}
+ここに建国の歴史を記載...
 
-[続きを読む]({{ post.url | relative_url }})
+## 主要な出来事
 
----
-{% endfor %}
+### 2024年
+- 建国宣言
 
-{% if site.posts.size == 0 %}
-まだ記事がありません。
-{% endif %}
+### 2025年
+- ウェブサイト開設
