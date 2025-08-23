@@ -3,10 +3,7 @@ layout: default
 title: ホーム
 ---
 
-# Luminarch独立国へようこそ
-
-ここは私たちの小さな独立国のホームページです。
-
+# Welcome to Luminarch
 ## お知らせ
 
 {% assign news_posts = site.posts | where_exp: "post", "post.categories.size == 0" | limit: 5 %}
