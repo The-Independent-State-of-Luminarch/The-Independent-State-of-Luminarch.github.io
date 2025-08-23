@@ -1,12 +1,11 @@
 ---
 layout: default
-title: 開発者ブログ
+title: developer-blog
 permalink: /developer-blog/
 ---
 
-# 開発者ブログ
-
-技術実装記録、学習メモ、開発tips などを投稿しています。
+# Developer Blog
+I will post records of implementation and trial and error.
 
 {% assign developer_blog_posts = site.posts | where: "categories", "developer-blog" %}
 
