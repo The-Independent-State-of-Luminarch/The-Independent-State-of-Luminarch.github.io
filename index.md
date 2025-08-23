@@ -12,5 +12,5 @@ title: home
 {% endfor %}
 
 {% if news_posts.size == 0 %}
-現在お知らせはありません。
+There are no announcements at this time.
 {% endif %}
