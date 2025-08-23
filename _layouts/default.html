@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title | default: "Luminarch独立国" }}</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title | default: "The ndependent state of Luminarch" }}</title>
     
     <!-- ちらつき防止スクリプト（CSSより前に配置） -->
     <script>
@@ -302,14 +302,14 @@
             <nav>
                 <div class="nav-links">
                     <a href="{{ '/' | relative_url }}" 
-                       {% if page.url == '/' %}class="active"{% endif %}>ホーム</a>
+                       {% if page.url == '/' %}class="active"{% endif %}>home</a>
                     <a href="{{ '/developer-blog' | relative_url }}" 
-                       {% if page.url == '/developer-blog/' or (page.layout == 'post' and page.categories contains 'developer-blog') %}class="active"{% endif %}>開発者ブログ</a>
+                       {% if page.url == '/developer-blog/' or (page.layout == 'post' and page.categories contains 'developer-blog') %}class="active"{% endif %}>developer-blog</a>
                     <a href="{{ '/history' | relative_url }}" 
-                       {% if page.url == '/history/' %}class="active"{% endif %}>歴史</a>
+                       {% if page.url == '/history/' %}class="active"{% endif %}>history</a>
                 </div>
                 
-                <button id="theme-toggle" class="theme-toggle" aria-label="テーマ切り替え">
+                <button id="theme-toggle" class="theme-toggle" aria-label="theme-toggle">
                     <span class="sun-icon">☀️</span>
                     <span class="moon-icon">🌙</span>
                 </button>
