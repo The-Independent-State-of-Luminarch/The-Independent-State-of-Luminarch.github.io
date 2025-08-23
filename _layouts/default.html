@@ -327,7 +327,7 @@
                             {{ page.date | date: "%Y年%m月%d日" }}
                         </time>
                         {% if page.categories.size > 0 %}
-                        | カテゴリー: {{ page.categories | join: ", " }}
+                        | categories: {{ page.categories | join: ", " }}
                         {% endif %}
                     </div>
                     {% if page.tags.size > 0 %}
