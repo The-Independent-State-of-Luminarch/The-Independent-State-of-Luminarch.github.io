@@ -4,13 +4,14 @@
 <title>{{ page.title }} - {{ site.title }}</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<!-- ダークモード用CSS変数とスクリプト -->
+<!-- ダークモード用CSS -->
 <style>
 :root {
   --bg-color: #ffffff;
   --text-color: #333333;
   --link-color: #0066cc;
   --border-color: #cccccc;
+  --nav-hover: #f0f0f0;
 }
 
 [data-theme="dark"] {
@@ -18,6 +19,7 @@
   --text-color: #e0e0e0;
   --link-color: #66b3ff;
   --border-color: #444444;
+  --nav-hover: #2a2a2a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,13 +28,11 @@
     --text-color: #e0e0e0;
     --link-color: #66b3ff;
     --border-color: #444444;
+    --nav-hover: #2a2a2a;
   }
 }
 
-html {
-  color-scheme: light dark;
-}
-
+html { color-scheme: light dark; }
 html[data-theme="dark"] { color-scheme: dark; }
 html[data-theme="light"] { color-scheme: light; }
 
@@ -42,8 +42,33 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-a { color: var(--link-color); }
+a { color: var(--link-color); text-decoration: none; }
+a:hover { text-decoration: underline; }
 hr { border-color: var(--border-color); }
+
+/* ナビゲーションスタイル */
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: var(--nav-hover);
+  text-decoration: none;
+}
+
+nav a.active {
+  background-color: var(--link-color);
+  color: white;
+}
 
 .theme-toggle {
   background: none;
@@ -53,21 +78,17 @@ hr { border-color: var(--border-color); }
   cursor: pointer;
   font-size: 14px;
   color: var(--text-color);
-  margin-left: 1rem;
+  margin-left: auto;
   transition: all 0.3s ease;
 }
 
-.theme-toggle:hover {
-  opacity: 0.7;
-}
-
+.theme-toggle:hover { opacity: 0.7; }
 [data-theme="dark"] .sun-icon { display: none; }
 [data-theme="light"] .moon-icon,
 :root:not([data-theme]) .moon-icon { display: none; }
 </style>
 
 <script>
-// ページ読み込み前にテーマ適用（ちらつき防止）
 (function() {
   const savedTheme = localStorage.getItem('theme');
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -85,7 +106,13 @@ hr { border-color: var(--border-color); }
 <header>
   <h1>{{ site.title }}</h1>
   <nav>
-    <a href="{{ "/" | relative_url }}">ホーム</a>
+    <a href="{{ '/' | relative_url }}" 
+       {% if page.url == '/' %}class="active"{% endif %}>ホーム</a>
+    <a href="{{ '/blog' | relative_url }}" 
+       {% if page.url == '/blog/' or page.layout == 'post' %}class="active"{% endif %}>開発者ブログ</a>
+    <a href="{{ '/history' | relative_url }}" 
+       {% if page.url == '/history/' %}class="active"{% endif %}>歴史</a>
+    
     <button id="theme-toggle" class="theme-toggle" aria-label="テーマ切り替え">
       <span class="sun-icon">☀️</span>
       <span class="moon-icon">🌙</span>
@@ -102,15 +129,12 @@ hr { border-color: var(--border-color); }
 </footer>
 
 <script>
-// テーマ切り替え機能
 document.addEventListener('DOMContentLoaded', function() {
   const themeToggle = document.getElementById('theme-toggle');
-  
   if (themeToggle) {
     themeToggle.addEventListener('click', function() {
       const currentTheme = document.documentElement.getAttribute('data-theme');
       const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-      
       document.documentElement.setAttribute('data-theme', newTheme);
       localStorage.setItem('theme', newTheme);
     });
