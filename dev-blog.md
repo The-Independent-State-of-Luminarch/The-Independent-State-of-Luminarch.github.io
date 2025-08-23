@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 開発者ブログ
-permalink: /blog/
+permalink: /dev-blog/
 ---
 
 # 開発者ブログ
