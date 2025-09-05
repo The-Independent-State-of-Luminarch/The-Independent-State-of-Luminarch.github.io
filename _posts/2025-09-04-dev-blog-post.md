@@ -2,7 +2,7 @@
 layout: post
 title: "Changed PC's Kernel"
 date: 2025-09-04 14:31:00 +0900
-categories: [dev-blog]
+categories: [developer-blog]
 tags: [update]
 excerpt: "Changed PC's kernel. This is expected to improve the system's operational stabilityPCのカーネルを変更しました。PCの動作安定性の向上が期待できます"
 ---
