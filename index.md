@@ -3,7 +3,7 @@ layout: default
 title: home
 ---
 
-# Welcome to Luminarch
+# Welcome to Independent State Of Luminarch
 ## news
 
 {% assign news_posts = site.posts | where_exp: "post", "post.categories.size == 0" | limit: 5 %}
