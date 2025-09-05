@@ -7,7 +7,7 @@ tags: [update]
 excerpt: "pgraded both main PC and backup PC memory to 32GB each"
 ---
 
-# Memory Operates You!!! (Soviet-style inversion)
+## Memory Operates You!!! (Soviet-style inversion)
 **Long live independence!**
 The development team has today procured two new 8GB memory modules and upgraded both the main PC and backup PC to 32GB of memory.
 This should allow multiple applications to run simultaneously with smooth performance.
