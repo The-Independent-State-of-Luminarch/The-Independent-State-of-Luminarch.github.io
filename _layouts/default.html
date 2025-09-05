@@ -324,7 +324,7 @@
                 <header>
                     <div class="post-meta">
                         <time datetime="{{ page.date | date_to_xmlschema }}">
-                            {{ page.date | date: "%Y年%m月%d日" }}
+                            {{ page.date | date: "%Y-%m-%d-%t" }}
                         </time>
                         {% if page.categories.size > 0 %}
                         | categories: {{ page.categories | join: ", " }}
