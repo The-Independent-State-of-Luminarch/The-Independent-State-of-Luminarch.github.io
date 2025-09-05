@@ -2,7 +2,7 @@
 layout: post
 title: "Completed 32GB Memory Upgrade for Main PC and Backup PC"
 date: 2025-09-05 13:52:00 +0900
-categories: [developer-blog
+categories: [developer-blog]
 tags: [update]
 excerpt: "pgraded both main PC and backup PC memory to 32GB each"
 ---
