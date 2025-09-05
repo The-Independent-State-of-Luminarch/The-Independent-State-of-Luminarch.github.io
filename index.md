@@ -4,6 +4,8 @@ title: home
 ---
 
 # Welcome to Independent State Of Luminarch
+Luminarch is a micronation within a computer.
+
 ## news
 
 {% assign news_posts = site.posts | where_exp: "post", "post.categories.size == 0" | limit: 5 %}
