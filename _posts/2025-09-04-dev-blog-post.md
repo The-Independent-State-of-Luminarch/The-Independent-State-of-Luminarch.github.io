@@ -7,7 +7,7 @@ tags: [update]
 excerpt: "Changed PC's kernel. This is expected to improve the system's operational stabilit"
 ---
 
-# Celebrating the Revival of Wired LAN
+## Celebrating the Revival of Wired LAN
 **Long live independence!**
 
 Last night, I suddenly lost internet connectivity via wired LAN and was troubled by this issue. However, I managed to restore the connection by reconfiguring the DNS address settings.
