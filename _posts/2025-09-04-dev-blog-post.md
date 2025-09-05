@@ -20,6 +20,7 @@ Having an unstable OS operation is a serious matter when it comes to maintaining
 While still under investigation and not yet confirmed, based on online posts and references, these symptoms appear to be caused by kernel compatibility issues.
 
 Among professional users, there seems to be a common understanding that HWE (Hardware Enablement) kernel versions are recommended only when using the latest PC configurations, while for older PC configurations, it's better to stick with the generic kernel version.
+
 **Please publish this information more openly in places where even I can understand it!!!**
 
 ...But back to the topic. So I changed and fixed the kernel to use the generic version. I also reinstalled drivers and other components to prepare the environment for the generic kernel.
