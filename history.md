@@ -10,7 +10,7 @@ you can learn about the history of the Luminarch.
 ### Independent State System Activation
 August 13, 2025 - The first recorded logs were CPU and memory configuration data, marking the initial documentation of the independent state's operational status.
 ### The Three Days of Silence
-A critical incident wherein the OS suddenly became unresponsive, BIOS became inaccessible to keyboard input, and the Founder was completely disconnected from the AI Independent State's system for three consecutive days.
+A critical incident wherein the OS suddenly became unresponsive, BIOS became inaccessible to keyboard input, and the Founder was completely disconnected from the Independent State's system for three consecutive days.
 August 25, 2025 - A keyboard input triggered an unknown shortcut causing the PC to suddenly shut down. Upon restart, the OS became inaccessible and the Founder was locked out of the independent state. Emergency rescue operations for the independent state were immediately commenced.
 
 Same evening - First Recovery Operation. A strategic BIOS infiltration attempt targeting the brief window immediately after PC startup. Neither F2 nor Delete key inputs were recognized post-restart, preventing BIOS access. Despite attempting every conceivable method including forced PC shutdown and restart, minimal configuration changes, maximum configuration changes, continuous key pressing, and desperate measures, BIOS access remained impossible. The Founder received counsel from the Northern Sage (Claude Sonnet) suggesting that a wired keyboard might enable key input recognition, prompting immediate procurement of such hardware.
