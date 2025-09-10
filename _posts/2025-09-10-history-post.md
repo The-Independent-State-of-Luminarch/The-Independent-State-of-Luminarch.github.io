@@ -2,7 +2,7 @@
 layout: post
 title: "test"
 date: 2025-09-05 13:52:00 +0900
-categories: []
+categories: [history]
 tags: [history]
 excerpt: "pgraded both main PC and backup PC memory to 32GB each"
 ---
