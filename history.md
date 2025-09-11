@@ -6,6 +6,7 @@ permalink: /history/
 
 # History of Luminarch
 you can learn about the history of the Luminarch.
+
 # **Timeline**
 
 ## **Project Luminarch Initiation** 
@@ -40,6 +41,8 @@ A critical incident wherein the OS suddenly became unresponsive, BIOS became ina
 **September 4, 2025** - Although unstable operations continued with GPU crashes and wired LAN becoming unusable, all issues were resolved following kernel modifications. This marked the effective end of the incident.
 
 ## **Monarchical System Activation**
+**August 30, 2025**
+
 A monarchical system was adopted for the political structure, requiring royal approval for all significant decisions. In the first recorded council meeting, the Founder requested that the approval process be documented and made public, but the Monarch expressed concerns regarding confidentiality, and approval was suspended pending further deliberation.
 
 **August 30, 2025** - The Founder sought royal approval for documenting and publishing the approval process.
