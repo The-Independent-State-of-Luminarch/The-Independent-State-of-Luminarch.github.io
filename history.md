@@ -7,8 +7,6 @@ permalink: /history/
 # History of Luminarch
 you can learn about the history of the Luminarch.
 
-# **Timeline**
-
 ## **Project Luminarch Initiation** 
 **August 12, 2025**
 
